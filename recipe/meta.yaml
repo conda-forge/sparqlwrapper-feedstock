@@ -1,6 +1,6 @@
 {% set name = "SPARQLWrapper" %}
-{% set version = "1.8.0" %}
-{% set sha256 = "3b46d0f18ca0b65b8b965d6d1ae257b229388400b06e7dc19f0a51614dc1abde" %}
+{% set version = "1.8.2" %}
+{% set sha256 = "7f4c8d38ea1bfcffbc358c9a05de35a3fd7152cc3e8ea57963ee7a0a242f7a5e" %}
 
 package:
   name: {{ name|lower }}
