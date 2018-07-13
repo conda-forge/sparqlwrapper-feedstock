@@ -14,14 +14,16 @@ Summary: SPARQL Endpoint interface to Python for use with rdflib
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/sparqlwrapper-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/sparqlwrapper-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/sparqlwrapper-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/sparqlwrapper-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/sparqlwrapper-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/sparqlwrapper-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/sparqlwrapper-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/sparqlwrapper-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/sparqlwrapper-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/sparqlwrapper-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/sparqlwrapper-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/sparqlwrapper-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sparqlwrapper/badges/version.svg)](https://anaconda.org/conda-forge/sparqlwrapper)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/sparqlwrapper/badges/downloads.svg)](https://anaconda.org/conda-forge/sparqlwrapper)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sparqlwrapper-green.svg)](https://anaconda.org/conda-forge/sparqlwrapper) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sparqlwrapper.svg)](https://anaconda.org/conda-forge/sparqlwrapper) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sparqlwrapper.svg)](https://anaconda.org/conda-forge/sparqlwrapper) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sparqlwrapper.svg)](https://anaconda.org/conda-forge/sparqlwrapper) |
 
 Installing sparqlwrapper
 ========================
