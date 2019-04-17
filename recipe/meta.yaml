@@ -1,4 +1,4 @@
-{% set version = "1.8.2" %}
+{% set version = "1.8.3" %}
 
 package:
   name: sparqlwrapper
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/S/SPARQLWrapper/SPARQLWrapper-{{ version }}.tar.gz
-  sha256: 7f4c8d38ea1bfcffbc358c9a05de35a3fd7152cc3e8ea57963ee7a0a242f7a5e
+  sha256: e03763e68f30f36d80cab42386e19c24b1c28e680e112cef215ebbefdb6ff997
 
 build:
-  number: 1000
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
