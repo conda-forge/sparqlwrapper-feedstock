@@ -11,11 +11,17 @@ source:
 build:
   number: 1007
   script: {{ PYTHON }} -m pip install . --no-deps -vv
-
+  # cannot be noarch because use_2to3
+  # noarch: python
+  
 requirements:
+  build:
+    - python                                 # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
   host:
     - python
     - pip
+    # because use_2to3
     - setuptools <58
   run:
     - python
