@@ -17,6 +17,7 @@ requirements:
   host:
     - python
     - pip
+    - setuptools <58
   run:
     - python
   run_constrained:
