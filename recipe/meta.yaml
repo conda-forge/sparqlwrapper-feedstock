@@ -19,6 +19,8 @@ requirements:
   host:
     - python
     - pip
+    # Needed for use_2to3
+    - setuptools <58
   run:
     - python
     - keepalive
