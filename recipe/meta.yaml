@@ -10,6 +10,7 @@ source:
 
 build:
   number: 0
+  skip: true  # [py<37]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -22,6 +23,7 @@ requirements:
   run:
     - python
     - keepalive
+    - rdflib >=6.1.1
 
 test:
   imports:
