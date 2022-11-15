@@ -10,20 +10,20 @@ source:
 
 build:
   number: 0
-  skip: true  # [py<37]
+  noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
+  entry_points:
+    - rqw = SPARQLWrapper.main:main
 
 requirements:
   build:
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
   host:
-    - python
+    - python >=3.7
     - pip
-    # Needed for use_2to3
-    - setuptools <58
   run:
-    - python
+    - python >=3.7
     - keepalive
     - rdflib >=6.1.1
 
