@@ -24,12 +24,19 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - keepalive
     - rdflib >=6.1.1
+  run_constrained:
+    - keepalive >=0.5
+    - pandas >=1.3.5
 
 test:
+  requires:
+    - pip
   imports:
     - SPARQLWrapper
+  commands:
+    - pip check
+    - rqw --help
 
 about:
   home: https://github.com/RDFLib/sparqlwrapper
