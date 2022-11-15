@@ -147,5 +147,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@rfm-targa](https://github.com/rfm-targa/)
 * [@satra](https://github.com/satra/)
 
